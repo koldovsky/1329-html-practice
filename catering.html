@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
@@ -17,34 +16,19 @@
     ></script>
   </head>
   <body>
-    <header class="header">
+    <header>
+      <!-- Vyacheslav Koldovskyy -->
       <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
+      <!-- End partial Vyacheslav Koldovskyy -->
       <div
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="index.header-hero.partial.html"
+        data-hx-get="catering.header-hero.partial.html"
       ></div>
     </header>
-    <main class="main">
-      <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="index.about-us.partial.html"
-      ></section>
-      <div
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="index.carousel-albums.partial.html"
-      ></div>
-    </main>
-    <footer
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="global.footer.partial.html"
-    ></footer>
   </body>
 </html>
